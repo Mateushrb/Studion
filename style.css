@@ -102,7 +102,7 @@ ul {
 
 .slide {
     position: relative;
-    height: calc(100vh - 7.75rem);
+    height: calc(100vh - 10.75rem);
 }
 
 .slide__background-image {
@@ -219,4 +219,18 @@ ul {
 .btn--institutional:hover {
     color: var(--color-copy);
     background: unset;
+    box-shadow: 0 1rem 1rem #0006; /* x, y, blur, cor */
+}
+
+.quote {
+    background-image: url(./images/parallax.jpg);
+    min-height: 80vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote__copy {
+    background-color: #fff;
 }
