@@ -1,1 +1,1 @@
-# imagineschool
+Projeto Studion da ImagineSchool
