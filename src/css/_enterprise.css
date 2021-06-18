@@ -1,3 +1,57 @@
 .enterprise {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.enterprise__info__container h3 {
+    margin: 0;
+    padding-top: 6.875rem;
+    width: 450px;
+    height: 136px;
+    font-size: 1.5625rem;
+    line-height: 1.9375rem;
+}
+
+.enterprise__info__container p {
+    margin: 0;
+    padding-top: 5.9375rem;
+    width: 403px;
+    height: 444px;
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.enterprise__info__container {
+    float: right;
+    padding-right: 5.9375rem;;
+}
+
+.enterprise__image {
+    padding-left: 3.125rem;
+    padding-top: 2.625rem;
+}
+
+.brands {
+    background-color: #ffc602;
+}
+
+.brands__title h3 {
+    margin: 0;
+    text-align: center;
+    padding-top: 4.375rem;
+    padding-bottom: 3.5rem;
+    font-size: 1.5625rem;
+}
+
+.brands__image {
+    text-align: center;
+    padding-bottom: 5.5rem;
+}
+
+.video {
+    padding-top: 5rem;
+    padding-bottom: 5.625rem;
+    text-align: center;
 }
