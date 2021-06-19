@@ -1,6 +1,6 @@
 .events {
     display: grid;
-    grid-template-columns: 250px 500px 300px;
+    grid-template-columns: 250px 500px 400px;
 }
 
 .event__information h3 {
@@ -9,6 +9,8 @@
     line-height: 18px;
     color: #ffc602;
     text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 28px;
 }
 
 .event__information h4 {
@@ -16,6 +18,7 @@
     letter-spacing: 3px;
     line-height: 18px;
     color: #000;
+    margin: 0;
 }
 
 .event__information p {
@@ -45,7 +48,80 @@
     background-color: #f5f5f5;
 }
 
+.complement__brazuca_3 {
+    grid-column: 2;
+    width: 795px;
+    height: 170px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #333;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.address__brazuca_3 {
+    grid-column: 2;
+}
+
+.address__brazuca_3 div {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    padding-top: 38px;
+    padding-bottom: 56px;
+}
+
+.address__brazuca_3 span {
+    padding-top: 15px;
+}
+
+.address__brazuca_3 i {
+    color: var(--color-primary);
+    font-size: 35px;
+}
+
+.address__brazuca_3__title {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.address__brazuca_3__address {
+    font-size: 14px;
+    line-height: 27px;
+    color: #333;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.address__brazuca_3__button {
+    padding-top: 38px;
+    padding-left: 110px;
+}
+
 .brazuca_4 {
     padding-top: 47px;
     padding-bottom: 106px;
+}
+
+.ingresso {
+    padding-top: 100px;
+    padding-left: 90px;
+}
+
+.event__data {
+    display: grid;
+    grid-template-columns: 33px 1fr;
+}
+
+.event__clock {
+    color: var(--color-primary);
+    font-size: 22px;
+    align-self: center;
+    margin: 0;
 }
