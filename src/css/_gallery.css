@@ -1,0 +1,16 @@
+.gallery {
+    background-color: #000;
+}
+.gallery__images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.gallery__images img {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+
