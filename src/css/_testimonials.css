@@ -1,0 +1,56 @@
+.testimonial_background {
+    background-color: #ffc400;
+}
+
+.slider {
+    padding: 4.8125rem 0;
+}
+
+.copy__inside {
+    text-align: center;
+}
+
+.text_slide {
+    text-align: center;
+}
+
+.text_slide span {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.text_slide small {
+    padding-right: 23.75rem;
+    text-align: right;
+}
+
+.text_slide h3 {
+    margin: 0;
+    font-size: 3.125rem;
+    letter-spacing: -0.125rem;
+    padding-top: 2.1875rem;
+    color: #000;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.text_slide small {
+    font-size: 0.875rem;
+    letter-spacing: 0.1875rem;
+    padding-bottom: 1.75rem;
+    color: #000;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.text_slide p {
+    width: 589px;
+    height: 75px;
+    font-size: 0.9375rem;
+    line-height: 1.875rem;
+    color: #000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 0;
+    display: inline-block;
+}
