@@ -2,12 +2,14 @@
     background-color: #ffc400;
 }
 
-.slider {
+.slider-testimonials {
     padding: 4.8125rem 0;
 }
 
 .copy__inside {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text_slide {
@@ -20,7 +22,7 @@
 }
 
 .text_slide small {
-    padding-right: 23.75rem;
+    padding-right: 23.5rem;
     text-align: right;
 }
 
