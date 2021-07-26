@@ -193,7 +193,7 @@
   background-position: 40% top;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 720px) {
   .quote {
     background-attachment: fixed;
     background-size: cover;
@@ -208,7 +208,7 @@
   min-height: 100vh;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 720px) {
   .quote__container {
     align-items: center;
     min-height: 80vh;
