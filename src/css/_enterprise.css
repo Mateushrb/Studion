@@ -1,22 +1,23 @@
 .enterprise {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 .enterprise__info__container h3 {
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
     margin: 0;
-    padding-top: 6.875rem;
-    width: 450px;
-    height: 136px;
     font-size: 1.5625rem;
     line-height: 1.9375rem;
 }
 
 .enterprise__info__container p {
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    padding-top: 3rem;
     margin: 0;
-    padding-top: 5.9375rem;
-    width: 403px;
-    height: 444px;
     font-size: 1.0625rem;
     line-height: 1.6875rem;
     font-weight: 400;
@@ -24,13 +25,13 @@
 }
 
 .enterprise__info__container {
-    float: right;
-    padding-right: 5.9375rem;;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
 }
 
 .enterprise__image {
-    padding-left: 3.125rem;
-    padding-top: 2.625rem;
+    padding: 0 1rem;
 }
 
 .brands {
@@ -40,18 +41,80 @@
 .brands__title h3 {
     margin: 0;
     text-align: center;
-    padding-top: 4.375rem;
-    padding-bottom: 3.5rem;
     font-size: 1.5625rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .brands__image {
     text-align: center;
-    padding-bottom: 5.5rem;
+    padding-bottom: 2rem;
+}
+
+.brands__image img {
+    width: 100%;
+    padding: 0 1rem;
 }
 
 .video {
-    padding-top: 5rem;
-    padding-bottom: 5.625rem;
     text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 1280px) {
+    .video iframe {
+        width: 100%;
+        height: 15rem;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+    .enterprise {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .enterprise__info__container {
+        width: auto;
+        float: right;
+        padding-right: 5.9375rem;
+    }
+
+    .enterprise__info__container h3 {
+        padding-top: 6.875rem;
+        width: 450px;
+        height: 136px;
+    }
+
+    .enterprise__info__container p {
+        padding-top: 5.9375rem;
+        width: 403px;
+        height: 444px;
+    }
+
+    .enterprise__image {
+        padding-left: 3.125rem;
+        padding-top: 2.625rem;
+    }
+
+    .brands__title h3 {
+        padding-top: 4.375rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .brands__image {
+        padding-bottom: 5.5rem;
+    }
+
+    .brands__image img {
+        width: auto;
+    }
+
+    .video {
+        padding-top: 5rem;
+        padding-bottom: 5.625rem;
+    }
 }

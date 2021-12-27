@@ -1,6 +1,6 @@
 .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact h3 {
@@ -24,8 +24,8 @@
 }
 
 .contact__info span {
-    display: grid;
-    grid-template-columns: 1.5rem auto;
+    display: flex;
+    justify-content: center;
     gap: 0.625rem;
     align-items: center;
     font-family: 'roboto';
@@ -33,18 +33,16 @@
     line-height: 1.6875rem;
 }
 
-.contact__info__container,
-.contact__form__container {
-    width: 540px;
-}
-
 .contact__info__container {
-    float: right;
-    padding-right: 7.125rem;
+        padding-right: 0;
+        padding: 0 1rem;
+        text-align: center;
+        width: 100%;
 }
 
 .contact__form__container {
-    padding-left: 7.125rem;
+    width: 100%;
+    padding: 0 1rem;
 }
 
 .contact__form {
@@ -83,4 +81,28 @@
 .maps,
 .maps iframe {
     height: 36.5rem;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact__info__container {
+        float: right;
+        width: 540px;
+        padding-right: 7.125rem;
+        text-align: unset;
+    }
+
+    .contact__info span {
+        justify-content: left;
+    }
+
+    .contact__form__container {
+        width: 540px;
+        padding-left: 7.125rem;
+    }
 }

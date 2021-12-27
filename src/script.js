@@ -28,7 +28,7 @@ $(document).ready(() => {
         Subject: "Por favor me adicione na newsletter",
         Body: `Olá,
         
-        Eu gostaria de ser adicionado na newsletter do site.
+        Eu gostaria de ser adicionado a newsletter do site.
         Meu email é ${email}.
         
         Obrigado!`

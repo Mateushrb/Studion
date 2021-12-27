@@ -2,15 +2,28 @@
     background-color: #000;
 }
 .gallery__images {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .gallery__images img {
-    padding-bottom: 2rem;
-    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
 }
 
+@media screen and (min-width: 1280px) {
+    .gallery__images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
 
+    .gallery__images img {
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+}
