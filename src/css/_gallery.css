@@ -9,6 +9,16 @@
     padding-bottom: 3rem;
 }
 
+.gallery__images div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__images div img {
+    width: 70%;
+}
+
 .gallery__images img {
     padding-bottom: 1rem;
     padding-left: 0;
@@ -20,6 +30,14 @@
         grid-template-columns: repeat(4, 1fr);
         padding-top: 10rem;
         padding-bottom: 10rem;
+    }
+
+    .gallery__images div {
+        display: unset;
+    }
+
+    .gallery__images div img {
+        width: unset;
     }
 
     .gallery__images img {
